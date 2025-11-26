@@ -1,0 +1,24 @@
+{
+  "name": "aivenapilot-multitenant",
+  "version": "1.0.0",
+  "description": "Multi-tenant Express server for AivenaPilot shops",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["multitenant", "express", "shops", "aivenapilot"],
+  "author": "AivenaPilot",
+  "license": "MIT"
+}
